@@ -1,0 +1,49 @@
+.main{
+    padding: 15px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.profile{
+    height: 37px;
+    width: 37px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.search{
+    margin-top: 20px;
+    margin-right: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.search-bar1 {
+    width: 30em;
+    height: 10px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.search-bar2 {
+    width: 20em;
+    height: 10px;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,22 @@
+.box{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 50px; /* Adjusted for space between profile icon and dropdown */
+    right: 0;
+    z-index: 1000;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box li {
+    padding: 10px 0; 
+}
+
+.box li logout{
+    font-color: red;
+}
